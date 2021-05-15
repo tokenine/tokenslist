@@ -1,7 +1,7 @@
 {
-  "name": "@bscswap/default-token-list",
+  "name": "@tokenine/default-token-list",
   "version": "1.9.28",
-  "description": "◦ The BSCswap default token list",
+  "description": "◦ The Tokenine default token list",
   "main": "build/tokens.json",
   "scripts": {
     "test": "mocha",
@@ -13,20 +13,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bscswap/default-token-list.git"
+    "url": "git+https://github.com/tokenine/tokenslist"
   },
   "keywords": [
-    "bscswap",
+    "tokenine",
     "default",
     "token",
     "list"
   ],
-  "author": "Moody Salem",
+  "author": "Dome Charoentist",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/bscswap/default-token-list/issues"
+    "url": "https://github.com/tokenine/tokenslist/issues"
   },
-  "homepage": "https://github.com/bscswap/default-token-list#readme",
+  "homepage": "https://github.com/tokenine/tokenslist#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@uniswap/token-lists": "^1.0.0-beta.8",
