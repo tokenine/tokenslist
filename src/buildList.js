@@ -5,7 +5,7 @@ const testnet = require('./tokens/testnet.json');
 module.exports = function buildList() {
   const parsed = version.split('.');
   return {
-    'name': 'Bollo Token List',
+    'name': 'Tokenine Token List',
     'timestamp': (new Date().toISOString()),
     'version': {
       'major': +parsed[ 0 ],
@@ -13,9 +13,9 @@ module.exports = function buildList() {
       'patch': +parsed[ 2 ]
     },
     'tags': {},
-    'logoURI': 'https://tokens.bollo.me/assets/images/0x1921168344840d1ca5acd82e8815f24582d4ad27.png',
+    'logoURI': 'https://tokens.tokenine.co/assets/images/0x1921168344840d1ca5acd82e8815f24582d4ad27.png',
     'keywords': [
-      'bollo',
+      'tokenine',
       'default'
     ],
     tokens: [
