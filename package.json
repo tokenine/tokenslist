@@ -1,0 +1,39 @@
+{
+  "name": "@bscswap/default-token-list",
+  "version": "1.9.28",
+  "description": "◦ The BSCswap default token list",
+  "main": "build/tokens.json",
+  "scripts": {
+    "test": "mocha",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/tokens.json && copyfiles -a images/* build/ && copyfiles -f public/* build",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "files": [
+    "build/tokens.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bscswap/default-token-list.git"
+  },
+  "keywords": [
+    "bscswap",
+    "default",
+    "token",
+    "list"
+  ],
+  "author": "Moody Salem",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/bscswap/default-token-list/issues"
+  },
+  "homepage": "https://github.com/bscswap/default-token-list#readme",
+  "devDependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "@uniswap/token-lists": "^1.0.0-beta.8",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2",
+    "copyfiles": "^2.3.0"
+  }
+}
